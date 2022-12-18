@@ -12,5 +12,7 @@ adb shell pm clear org.lineageos.etar
 adb shell pm disable-user --user 0 org.lineageos.etar
 adb shell pm clear com.android.gallery3d
 adb shell pm disable-user --user 0 com.android.gallery3d
+adb shell pm clear com.android.camera2
+adb shell pm disable-user --user 0 com.android.camera2
 # adb shell pm clear
 # adb shell pm disable-user --user 0
